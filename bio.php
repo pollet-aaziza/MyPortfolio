@@ -2,43 +2,39 @@
       require "template/header.php";
  ?>
         <!-- =============================================start of main====================================== -->
-        <main>
+        <main class="darkP">
+            <section class=" bio">
+              <figure>
+                <img class="photo" src="img/Aaziza(1).jpg" alt="">
+              </figure>
+                <p class=" paragra"></p>
+            </section>
+            <section class="container">
 
-            <h2 class="card-title title titre darkP"><i class="fas fa-user-graduate"></i>Diplômes et formations</h2>
-            <section class="mobile flex container">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <p class="card-text"><strong>Formation PHP Syfony </strong> <span class="light">simplon Roubaix 2018/2019 </span>Formation très intense de 3 mois, étude des principaux langages: HTML, CSS, JavaScript et PHP avec la méthode MVC. L'utilisation des framwork et les logiciels de virsioning, la gestion des bases de données, le responsive design, bootstrap et la gestion des dépôts à distance. </p>
-              </div>
-            </div>
+              <div></div>
+              <p class="light">Après plusieurs expériences relatives au domaine social , j'étais à la recherche d’un secteur d'activité plus dynamique. J’ai commencé par des formations en ligne avant de continuer avec 9 mois de formation à Simplon. 
+                Durant ces mois de formation, j’ai réalisé des sites vitrines responsives ainsi que des applications et des sites dynamiques en php procédural et orientée objet. 
+                J’ai choisi de m'orienter vers le backend car j’ai un attrait pour la logique et j’aimerais par une expérience en  entreprise améliorer mes compétences en résolution de problèmes. 
+                Ancienne sportive de haut niveau, je suis de nature compétitive. Le sport m'a appris à essayer toujours de repousser mes limites. Mon dynamise et ma détermination sont des atouts qui peuvent apporter un plus à votre équipe.
+              </p>
+              <h2>Voir mes résultat en sport</h2>
+              <ul class ="container d-flex">
+                <li><a href="http://www.kikourou.net/resultats/pollet+aaziza.html"><i class="fas fa-running"></i></li></a>
+                <li><a href=http://www.chtiquicourt.fr/resultats/2018/04/det/01_ron_10km.pdf><i class="fas fa-running"></i></li></a>
+                <li><a href=https://marathons.ahotu.fr/news/resultats-2018-semi-marathon-de-marcq-en-baroeul><i class="fas fa-running"></i></li></a>
+                <li><a href="http://www.sport-u-lille.com/cmsms_new/uploads/Challenge%20R%C3%A9gional/2015-2016/BOWLING/resultatsbowling%2010%2012%2015.pdf"><i class="fas fa-running"></i></li></a></a>
+                <li><a href="http://www.sport-u-lille.com/cmsms_new/uploads/Challenge%20R%C3%A9gional/2015-2016/MINI%20RAID/RESULTATS%20MINI%20RAID.pdf"><i class="fas fa-running"></i></li></a></a>
+                <li><a href="http://www.sport-u-lille.com/cmsms_new/uploads/Challenge%20R%C3%A9gional/2015-2016/CO/RESULTATS%20CO%20BERGUES%2010%2003%2016.pdf"><i class="fas fa-running"></i></li></a></a>
+              </ul>
+              <h2>Mes engagements</h2>
+              <ul class ="container d-flex">
+                <li><a href="http://www.lavoixdunord.fr/160017/article/2017-05-09/l-union-des-habitants-de-tourcoing-veut-resserrer-les-liens-au-mcr-prouvost"><li><i class="fas fa-landmark"></i></li></a>
+                <li><a href="https://www.univ-lille3.fr/ufr-llce/presentation/conseil/"><li><i class="fas fa-landmark"></i></li></a>
+              </ul>
 
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <p class="card-text"> <strong>Formation PHP </strong> <span class="light">simplon Roubaix 2018 </span>Formation très intense de 3 mois, étude des principaux langages: HTML, CSS, JavaScript et PHP avec la méthode MVC. L'utilisation des framwork et les logiciels de virsioning, la gestion d'une base de données... </p>
-              </div>
-            </div>
+            </section>
 
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <p class="card-text"><strong>Licence Arabe option FLE </strong> <span class="light" >Université Lille3 Villeneuve-d'Ascq 2013/2016 </span>Dans le département des langues et civilisations étrangères au sein de la branche études romaine slaves et orientales. J'ai étudié l'histoire du monde arabe, sa géopolitique des sumériens à nos jours, la linguistique arabe et française, le persan comme LV2, l'anglais et Français Langue étrangère pour enseigner le français à l'étranger ou aux étrangers vivants en France..</p>
-              </div>
-            </div>
-          </section>
-            <h2 class="card-title title titre darkP"><i class="fas fa-briefcase"></i>Expériencs profsionnelles</h2>
-            <section class="mobile flex container">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <p class="card-text"><strong>Conseillère clientèle chez EDF </strong><span class="light">LC FRANCE Villeneuve-d'Ascq </span>Chargée de la clientèle en back et front end. Explication, paiement et annulation de facture de facture. Conseils énergétique, accompagnement en cas de difficulté de paiement, explication des droits et des aides sociales liées aux paiements des factures. </p>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <p class="card-text"><strong>Présidente de l'association Union des Habitants de Tourcoing </strong><span class="light">MCR Prouvost</span>Transmettre les doléances des habitants aux organismes concernés, organiser des événements  culturels(théâtre, concerts, ateliers pour les enfants...). La gestion administrative de l'association.</p>
-              </div>
-            </div>
-          </section>
-
-        </main>
+              </main>
         <!-- =================================================end of main====================================== -->
         <!--======================================================= start of footer=============================== -->
         <?php

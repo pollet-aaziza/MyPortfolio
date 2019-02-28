@@ -20,10 +20,6 @@
 <body>
   <!-- ====================================start of header============================= -->
   <header>
-    <section class="capital titre light dark">
-      <h1>Aaziza Pollet</h1>
-      <p>Developpeuse web junior php Symfony</p>
-    </section>
     <div class="header flex">
       <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -33,10 +29,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="light nav-link" href="index.php">Accueil</a></li>
-              <li class="nav-item"><a class="light nav-link" href="bio.php">Parcours </a></li>
-              <li class="nav-item"><a class="light nav-link" href="profil.php">Bio</a></li>
+              <li class="nav-item"><a class="light nav-link" href="parcours.php">Parcours </a></li>
+              <li class="nav-item"><a class="light nav-link" href="bio.php">Bio</a></li>
               <li class="nav-item"><a class="light nav-link" href="contact.php">Contact</a></li>
-              <li class="nav-item"><a class="light nav-link" href="admin/login.php">Admin</a></ul>
               </div>
             </nav>
           </div>

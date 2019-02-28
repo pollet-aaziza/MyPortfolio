@@ -1,12 +1,13 @@
 </main>
 <!--======================================================= start of footer=============================== -->
 <footer class="dark">
-  <ul class="footer flex">
+  <ul class="footer d-flex">
     <li><i class="i fas fa-mobile-alt fa-1x"><a href="06.51.41.04.57"></a></i></li>
     <li><i class="i fab fa-github fa-1x"><a href="https://github.com/pollet-aaziza"></a></i></li>
     <li><i class="i fab fa-linkedin-in fa-1x"><a href="https://www.linkedin.com/in/aaziza-pollet-7b6973164/"></a></i></li>
     <li><i class="i fab fa-twitter fa-1x"><a href="https://twitter.com/AzizaPollet"></a></i></li>
   </ul>
+  <i class="fas fa-copyright">Aaziza Pollet</i>
 </footer>
 <!-- =======================================================end of footer=================================== -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
