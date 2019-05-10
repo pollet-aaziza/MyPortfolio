@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>portfolio</title>
+  <title>Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="manifest" href="site.webmanifest">
@@ -19,23 +19,26 @@
 
 <body>
   <!-- ====================================start of header============================= -->
-  <header>
+  <header class="container">
+    <section class="capital light text-center">
+      <p id="logo-title">Aaziza Oubalaid</p>
+    </section>
     <div class="header flex">
       <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler custom-toggler" id="center-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item"><a class="light nav-link" href="index.php">Accueil</a></li>
-              <li class="nav-item"><a class="light nav-link" href="parcours.php">Parcours </a></li>
-              <li class="nav-item"><a class="light nav-link" href="bio.php">Bio</a></li>
-              <li class="nav-item"><a class="light nav-link" href="contact.php">Contact</a></li>
+              <li class="nav-item"><a class="btn light nav-link text-white" href="index.php">Accueil</a></li>
+              <li class="nav-item"><a class="btn light nav-link text-white" href="parcours.php">Parcours</a></li>
+              <li class="nav-item"><a class="btn light nav-link text-white" href="profil.php">A propos</a></li>
+              <li class="nav-item"><a class="btn light nav-link text-white" href="contact.php">Contact</a></li>
               </div>
             </nav>
           </div>
         </div>
       </header>
       <!-- ============================================end of header====================================== -->
-      <main>
+      <main class="container">
